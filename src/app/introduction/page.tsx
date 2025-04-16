@@ -24,7 +24,7 @@ export default function Introduction() {
             <h1
               className={`font-bold text-5xl text-[#113946] ${ewert.className}`}
             >
-              Introduction to Music Station
+              Getting Started
             </h1>
             <Carousel className="w-full max-w-xs">
               <CarouselContent className="h-full">
