@@ -13,7 +13,10 @@ export default function AudioController() {
         try {
           await audio.play();
           setIsPlaying(true);
-        } catch (err) {
+        } catch (error) {
+          if (error) {
+            console.log("Audio play failed:", error);
+          }
           const onInteraction = () => {
             audio
               .play()
