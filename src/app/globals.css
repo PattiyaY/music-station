@@ -120,3 +120,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+@utility container {
+  padding: 1.5rem;
+}

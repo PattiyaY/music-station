@@ -39,7 +39,7 @@ export const guide: Guide[] = [
     title: "Step 3",
     subtitle: "Play next song & previous song",
     description: "Press the next or previous button to play the next song",
-    image: [nextSong, previousSong],
+    image: [previousSong, nextSong],
   },
   {
     title: "Let's play some music!",
