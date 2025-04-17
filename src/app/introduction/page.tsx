@@ -20,7 +20,7 @@ export default function Introduction() {
     <>
       <div className="flex flex-col items-center justify-center">
         <div className="container w-full">
-          <div className="flex flex-col items-center justify-center gap-10 text-center ">
+          <div className="flex flex-col items-center justify-center gap-10 text-center min-h-screen">
             <h1
               className={`font-bold text-5xl text-[#113946] ${ewert.className}`}
             >
