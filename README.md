@@ -14,7 +14,7 @@ Clone and run the project locally:
 
 ```bash
 git clone https://github.com/PattiyaY/music-station.git
-cd lps-music-station
+cd music-station
 npm install
 npm run dev
 ```
